@@ -40,6 +40,7 @@ export default {
 }
 .finish-title {
   font-size: 45px;
+  cursor: pointer;
 }
 .finish-btn {
   display: flex;
@@ -59,10 +60,10 @@ export default {
   cursor: pointer;
 }
 .btn-finish:active {
-  color: greenyellow;
+  background-color: #010F80;
 }
 .btn-finish:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
 }
 .btn-finish img {
   object-fit: contain;

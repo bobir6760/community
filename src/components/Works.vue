@@ -58,10 +58,12 @@ export default {
 .works-title {
   color: #5d5fef;
   font-size: 25px;
+  cursor: pointer;
 }
 .works-subtitle {
   font-size: 50px;
   font-weight: 900;
+  cursor: pointer;
 }
 .works-body {
   text-align: center;
@@ -69,6 +71,7 @@ export default {
 .works-wrapper__title {
   font-size: 30px;
   color: #5d5fef;
+  cursor: pointer;
 }
 .works-wrapper__subtitle {
   font-size: 50px;

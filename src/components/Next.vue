@@ -66,14 +66,31 @@ export default {
   font-size: 44px;
   text-align: center;
   align-items: center;
+  cursor: pointer;
 }
 .next-wrapper__subtitle {
   font-weight: bold;
   font-size: 30px;
   text-align: center;
+  cursor: pointer;
   span {
     color: #491cd8;
   }
+}
+.next-prev__title {
+  cursor: pointer;
+}
+.next-prev__title:hover {
+  text-decoration: underline;
+}
+.next-wrapper__subtitle:hover {
+  text-decoration: underline;
+}
+.next-block__title {
+  cursor: pointer;
+}
+.next-block__title:hover {
+  text-decoration: underline;
 }
 .next-wrapper__prev {
   display: flex;
@@ -104,6 +121,9 @@ export default {
     color: #491cd8;
     font-size: 25px;
     cursor: pointer;
+  }
+  .next-card__text:hover {
+    text-decoration: underline;
   }
   .next-card__subtitle {
     font-size: 50px;

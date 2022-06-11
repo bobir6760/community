@@ -31,13 +31,28 @@ export default {
   gap: 10px;
   .works-item__title {
     font-weight: bold;
+    cursor: pointer;
+  }
+  .works-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .works-image img {
+    cursor: pointer;
+    width: 80%;
   }
 }
 @media screen and (max-width: 992px) {
- .works-item__wrapper {
-   display: flex;
-   flex-direction: column;
-   text-align: center;
- }
+  .works-item__wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  .works-image {
+    align-items: center;
+  }
 }
 </style>

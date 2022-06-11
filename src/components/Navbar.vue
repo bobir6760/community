@@ -8,7 +8,7 @@
           <p>How it works</p>
           <p>Testimonails</p>
         </div>
-        <button class="btn_navbar">Download</button>
+        <button class="navbar-btn">Download</button>
       </div>
     </div>
   </div>
@@ -50,7 +50,7 @@ export default {
   color: black;
   font-size: 28px;
 }
-.btn_navbar {
+.navbar-btn {
   cursor: pointer;
   padding: 17px 35px;
   border-radius: 12px;
@@ -59,11 +59,9 @@ export default {
   color: white;
   font-size: 18px;
 }
-.btn_navbar:active {
-  color: black;
-}
-.btn_navbar:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+.navbar-btn:hover {
+  transition: ease-out 0.9s;
+  box-shadow: inset 300px 0 0 0 #8B05EE;
 }
 @media screen and (max-width: 1200px) {
   .navbar-wrapper__subtitle p {

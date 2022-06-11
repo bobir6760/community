@@ -63,6 +63,7 @@ export default {
   color: white;
   font-weight: 900;
   font-weight: bold;
+  cursor: pointer;
 }
 .store-block {
   display: flex;
@@ -80,10 +81,12 @@ export default {
   cursor: pointer;
 }
 .store-card__wrapper:active {
-  color: aqua;
+  color: white;
+  background-color: black;
 }
 .store-card__wrapper:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  transition: 0.5s;
 }
 .store-body__wrapper {
   display: flex;
@@ -97,10 +100,12 @@ export default {
   cursor: pointer;
 }
 .store-body__wrapper:active {
-  color: aqua;
+  color: black;
+  background-color: white;
 }
 .store-body__wrapper:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  transition: 0.5s;
 }
 .store-card__subtitle {
   font-weight: bold;
